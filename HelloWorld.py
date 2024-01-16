@@ -22,7 +22,7 @@ st.slider("Pick a number:", min_value=0, max_value=10)
 st.line_chart([1, 2, 3, 4])
 
 # Customize layout with columns and rows
-col1, col2 = st.beta_columns(2)
+col1, col2 = st.columns(2)
 col1.write("This is in the first column!")
 col2.write("And this is in the second!")
 
