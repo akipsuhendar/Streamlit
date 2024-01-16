@@ -9,7 +9,7 @@ st.text("This is some simple text.")
 st.markdown("And this is some formatted text with **bold** and _italics_.")
 
 # Numbers and data structures
-st.number(10.5)
+st.number(10)
 st.write([1, 2, 3])
 st.dataframe({"fruit": ["apple", "banana", "cherry"], "price": [1.5, 2.0, 3.5]})
 
